@@ -13,7 +13,7 @@ and values of that team, whether they want to make their work
 faster, more efficient, correct, compliant, agile, transparent, or
 reproducible
 
-> Step 1: Data and Code Organization
+> Data and Code Organization
 
 The [`Cookie-Cutter`](cookie_cutter.sh) shell script creates a basic directory structure that might be useful for set-up a Data Science project
 
