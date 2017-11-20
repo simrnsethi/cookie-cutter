@@ -17,35 +17,29 @@ reproducible
 
 The [`Cookie-Cutter`](cookie_cutter.sh) shell script creates a basic directory structure that might be useful for set-up a Data Science project
 
-* The License File for this project is included can be generated out of the 4 options:
- - MIT, GNU, BSD - 3 Clause, Apache
  
  
-* The Sub-directories created using the shell script under the `data_science_project` are :
-  1. `citations` : For including any References or Citation docs for this project
+* The directories created using the shell script under are :
+  1. `CITATION` : For including any References or Citation docs for this project
   2. `src` : source code files. 
-  2. `data` :
-    * external
-    * processed
-    * raw
-    > Based on the various stages of the data processing, the raw, external and processed data can be stored
-  3. `docs`: For storing import docs, discussions or scripts for this project
-  4. `models` : Model outputs and iterations
-  5. `notebooks` : storing `R`, `python` `Jupyter` notebooks
-  6. `reports` :
-    * images:
-    * figures
-    > Includes important figures and images from visualizations
+  2. `data` : where all the data files may be stored
+  3. `doc`: For storing import docs, discussions or scripts for this project
+  4. `bin` : Model outputs and iterations
+  5. `results` : for storing the results of analysis or sample results from toolkit.
+  6. The License File for this project is included can be generated out of the 4 options:
+ - MIT, GNU, BSD - 3 Clause, Apache. A menu option lets you choose the License you want to include in the folder.
+  6. `requirements.txt`: To store information about all the requirements that might be re-create the analysis or to run a toolkit.
 
 
 
-> Steps to mirror this repo
 
-* git clone
+> Steps to mirror this repo:
 
-clone this repo using the below code snippet in command-line
+Clone this repo using the below code snippet in command-line:
 
-*git clone https://github.com/simrnsethi/cookie-cutter.git*
+```
+git clone https://github.com/simrnsethi/cookie-cutter.git
+```
 
 * cookie_cutter shell script
 
