@@ -13,7 +13,7 @@ and values of that team, whether they want to make their work
 faster, more efficient, correct, compliant, agile, transparent, or
 reproducible
 
-> Data and Code Organization
+### Data and Code Organization
 
 The [`Cookie-Cutter`](cookie_cutter.sh) shell script creates a basic directory structure that might be useful for set-up a Data Science project
 
@@ -40,7 +40,7 @@ Clone this repo using the below code snippet in command-line:
 git clone https://github.com/simrnsethi/cookie-cutter.git
 ```
 
-* cookie_cutter shell script
+### cookie_cutter shell script
 
 Now that you have the cookie_cutter.sh file run the shell script.
 
