@@ -1,7 +1,5 @@
 # Project Skeleton Development Script
 
-
-
 The script below helps in creating a basic template for a data analysis project. It generates the folders and files 
 
 ## Project Overview
@@ -54,6 +52,5 @@ This will generate all the required folders.
 
 ## Author
 
-**Simran Sethi**
+Simran Sethi
 
-_Master of Data Science 2017-18 @ University of British Columbia_
