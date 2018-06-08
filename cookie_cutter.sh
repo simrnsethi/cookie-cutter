@@ -8,6 +8,10 @@ echo Please enter the name of the author:
 read varname
 
 echo =================================================
+echo Please enter the name of the repository:
+read reponame
+
+echo =================================================
 echo "         select LICENSE"
 echo =================================================
 
@@ -112,5 +116,6 @@ mkdir src
 mkdir bin
 mkdir results
 touch CITATION
-touch README
+touch README.md
+echo "# $reponame" > README.md
 touch requirements.txt
